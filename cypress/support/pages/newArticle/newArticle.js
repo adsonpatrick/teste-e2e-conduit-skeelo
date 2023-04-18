@@ -5,15 +5,15 @@ class NewArticle {
     }
 
     static insertTitle(title) {
-        cy.get(newArticleElements.insertArticleTitle).type(title).should("have.value", title)
+        cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0}).should("have.value", title)
     }
 
     static insertTitleSubject(titleSubject) {
-        cy.get(newArticleElements.insertSubTitle).type(titleSubject).should("have.value", titleSubject)
+        cy.get(newArticleElements.insertSubTitle).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
     }
 
     static writeArticle(article) {
-        cy.get(newArticleElements.insertArticle).type(article)
+        cy.get(newArticleElements.insertArticle).type(article, {delay: 0})
     }
 
     static submitArticle() {
