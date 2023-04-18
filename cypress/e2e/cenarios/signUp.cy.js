@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 import SignUp from "../../support/pages/signUp/signUp"
 
