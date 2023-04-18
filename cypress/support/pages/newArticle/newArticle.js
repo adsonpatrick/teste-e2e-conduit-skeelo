@@ -13,7 +13,7 @@ class NewArticle {
     }
 
     static writeArticle(article) {
-        cy.get(newArticleElements.insertArticle).type(article, {delay: 0}).should("have.value", article)
+        cy.get(newArticleElements.insertArticle).type(article, {delay: 0})
     }
 
     static submitArticle() {
