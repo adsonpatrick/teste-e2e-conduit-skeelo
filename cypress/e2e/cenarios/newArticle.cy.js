@@ -7,7 +7,7 @@ describe("CENÁRIO DE SUCESSO - NOVO ARTIGO", () =>{
     it("Espera que realize a publicação de um artigo", () =>{
         const title = faker.lorem.words()
         const titleSubject = faker.lorem.words()
-        const article = faker.lorem.text()
+        const article = faker.lorem.paragraph()
 
         cy.step('DADO... que eu acesse a plataforma')
         cy.login('email', 'password')
@@ -31,7 +31,7 @@ describe("CENÁRIO DE SUCESSO - NOVO ARTIGO", () =>{
 describe("CENÁRIO DE FALHA - NOVO ARTIGO", () =>{
     it("Espera que não publique um artigo com o título em branco", () =>{
         const titleSubject = faker.lorem.words()
-        const article = faker.lorem.text()
+        const article = faker.lorem.paragraph()
 
         cy.step('DADO... que eu acesse a plataforma')
         cy.login('email', 'password')
