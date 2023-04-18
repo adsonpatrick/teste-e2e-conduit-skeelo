@@ -43,6 +43,8 @@ ___
 
 # Rodando o teste via pipeline - Github Actions 
 
+## Ao entrar no repositório clique na aba **[Actions](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image001.png?token=GHSAT0AAAAAACBSGAFFBKXXQCRW7PCS2OJ2ZB7AI5Q)
+
 
 
 
