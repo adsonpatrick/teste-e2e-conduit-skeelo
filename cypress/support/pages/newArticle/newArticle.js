@@ -5,7 +5,7 @@ class NewArticle {
     }
 
     static insertTitle(title) {
-        cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0}).should("have.value", title)
+        cy.get(newArticleElements.insertArticleTitle).first().type(title, {delay: 0}).should("have.value", title)
     }
 
     static insertTitleSubject(titleSubject) {
