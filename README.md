@@ -43,10 +43,29 @@ ___
 
 # Rodando o teste via pipeline - Github Actions 
 
-## Ao entrar no repositório clique na aba **Actions**
+### 1 - Ao entrar no repositório clique na aba **Actions**
 
 ![Actions](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image001.png?token=GHSAT0AAAAAACBSGAFFBKXXQCRW7PCS2OJ2ZB7AI5Q)
 
+### 2 - Na página de Actions clicar na opção End-to-end tests no menu esquerdo abaixo de Actions>All workflows.
+
+![End-to-end tests](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image002.png?token=GHSAT0AAAAAACBSGAFEMRSBCIT2FF7JDSJ4ZB7ANFA)
+
+### 3 - Agora clique na opção Run workflow na parte direita da tela.
+
+![run workflow](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image003.png?token=GHSAT0AAAAAACBSGAFETNCAQLRMCFLZZZJAZB7APGA)
+
+### 4 - Feito isso você pode acompanhar a pipeline clicando em End-to-end tests
+
+![end-to-end tests](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image004.png?token=GHSAT0AAAAAACBSGAFEKP2HPPP522UEFT6SZB7AQSQ)
+
+### 5 - Agora vocë pode clicar em test
+
+![test](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image005.png?token=GHSAT0AAAAAACBSGAFFEWMPK7OSQ2OCCUNQZB7AR3A)
+
+### 6 - Agora você pode acomapanhar os testes em tempo real e ver se todos passaram ou se algum teste falhou.
+
+![pipeline](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image006.png?token=GHSAT0AAAAAACBSGAFELREVPEBKCOW3EELOZB7ATWA)
 
 
 
