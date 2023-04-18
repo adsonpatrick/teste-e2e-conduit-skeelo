@@ -23,7 +23,7 @@ describe("CENÁRIO DE SUCESSO - NOVO ARTIGO", () =>{
         NewArticle.writeArticle(article)
         NewArticle.submitArticle()
 
-        cy.step('ENTÃO... o artigo deve ser')
+        cy.step('ENTÃO... o artigo deve ser publicado')
         NewArticle.articleUrlValidation()
     })
 })
