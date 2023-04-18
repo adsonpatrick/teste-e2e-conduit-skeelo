@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 import Logout from "../../support/pages/logout/logout"
 
