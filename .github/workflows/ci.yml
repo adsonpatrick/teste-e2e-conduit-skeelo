@@ -22,13 +22,4 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npm run cypress:run || echo 'Error running Cypress tests'
-
-      - name: Upload artifact on test failure
-        uses: actions/upload-artifact@v2
-        if: failure()
-        with:
-          name: cypress-videos
-          path: cypress/videos/
-
-
+        run: npm run cypress:run
