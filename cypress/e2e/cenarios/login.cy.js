@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 import Login from "../../support/pages/login/login"
 
