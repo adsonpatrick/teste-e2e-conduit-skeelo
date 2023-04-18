@@ -59,7 +59,7 @@ ___
 
 ![end-to-end tests](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image004.png?token=GHSAT0AAAAAACBSGAFEKP2HPPP522UEFT6SZB7AQSQ)
 
-### 5 - Agora vocë pode clicar em test
+### 5 - Agora você pode clicar em test
 
 ![test](https://raw.githubusercontent.com/adsonpatrick/teste-e2e-conduit-skeelo/main/images/Image005.png?token=GHSAT0AAAAAACBSGAFFEWMPK7OSQ2OCCUNQZB7AR3A)
 
