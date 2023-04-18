@@ -42,7 +42,7 @@ ___
 6. Após o clone do projeto, acesse o diretório recém clonado.
 7. Execute o comando npm install para instalar todas as dependências do projeto.
 8. Execute o comando npx cypress open para abrir a interface gráfica do Cypress. Isso deve abrir a janela do Cypress, que permite selecionar e executar os testes que você deseja.
-PS.: Alternativamente, você pode executar os testes diretamente no terminal, sem abrir a interface gráfica do Cypress, usando o comando npx cypress run
+<br>PS.: Alternativamente, você pode executar os testes diretamente no terminal, sem abrir a interface gráfica do Cypress, usando o comando npx cypress run
 
 # Rodando o teste via pipeline - Github Actions 
 
