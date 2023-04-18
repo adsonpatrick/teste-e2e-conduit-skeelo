@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 import NewArticle from "../../support/pages/newArticle/newArticle"
 
