@@ -45,6 +45,7 @@ ___
 <br>PS.: Alternativamente, você pode executar os testes diretamente no terminal, sem abrir a interface gráfica do Cypress, usando o comando npx cypress run
 
 # Rodando o teste via pipeline - Github Actions 
+Configurei a pipeline para rodar automaticamente a cada commit realizado no código porém também deixei a opção para rodar a pipeline manualmente, segue instrução de como rodar de maneira manual.
 
 ### 1 - Ao entrar no repositório clique na aba **Actions**
 
