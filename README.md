@@ -41,8 +41,8 @@ ___
 5. Em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando `git clone [cole-o-link-copiado-aqui]`.
 6. Após o clone do projeto, acesse o diretório recém clonado.
 7. Execute o comando npm install para instalar todas as dependências do projeto.
-8. Execute o comando npx cypress open para abrir a interface gráfica do Cypress. Isso deve abrir a janela do Cypress, que permite selecionar e executar os testes que você deseja.
-<br>PS.: Alternativamente, você pode executar os testes diretamente no terminal, sem abrir a interface gráfica do Cypress, usando o comando npx cypress run
+8. Execute o comando **npx cypress open** para abrir a interface gráfica do Cypress. Isso deve abrir a janela do Cypress, que permite selecionar e executar os testes que você deseja.
+<br>PS.: Alternativamente, você pode executar os testes diretamente no terminal, sem abrir a interface gráfica do Cypress, usando o comando **npx cypress run**
 
 # Rodando o teste via pipeline - Github Actions 
 Configurei a pipeline para rodar automaticamente a cada commit realizado no código porém também deixei a opção para rodar a pipeline manualmente, segue instrução de como rodar de maneira manual.
