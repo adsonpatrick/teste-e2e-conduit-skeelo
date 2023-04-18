@@ -30,6 +30,19 @@ Antes de começar a rodas os testes acho legal passar um contexto referente a pl
 
 Escrevi alguns cenários de testes abrangendo algumas das principais funcionalidades como *cadastro de usuário, login, logout e escrever novos artigos*. Como foi pedido nas instruções do desafio eu disponibilizei os cenários escrito em Gherkin na pasta **Cenários** na raiz do projeto que você também pode acessar clicando **[AQUI](https://github.com/adsonpatrick/teste-e2e-conduit-skeelo/blob/main/Cenarios/cenarios.md).** Também utilizei o cypress-plugin-steps para adicionar as etapas do cenários *(Gherkin - Dado, Quando e Então)* diretamente no código, para saber mais sobre o plugin pode clicar **[AQUI](https://github.com/filiphric/cypress-plugin-steps).** 
 
+___
+
+# Fork e clone o projeto 🐑
+
+1. Abra o navegador
+2. Acesse a URL https://github.com/adsonpatrick/teste-e2e-conduit-skeelo
+3. Faça um [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) do projeto.
+4. No seu fork do projeto, clique no botão **Code**, escolha uma opção de clone (HTTPS ou SSH) e copie o link de clone do projeto
+5. Em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando `git clone [cole-o-link-copiado-aqui]`.
+6. Após o clone do projeto, acesse o diretório recém clonado.
+
+# Rodando o teste via pipeline - Github Actions 
+
 
 
 
