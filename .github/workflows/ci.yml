@@ -1,5 +1,9 @@
 name: End-to-end tests 🧪
-on: [push]
+on:
+  workflow_dispatch: # Gatilho manual
+  push:
+    branches:
+      - main # Limitar a execução apenas para o branch "main"
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
@@ -10,3 +14,4 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+
