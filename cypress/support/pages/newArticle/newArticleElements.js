@@ -3,6 +3,6 @@ export const newArticleElements = {
     insertArticleTitle: 'fieldset.form-group input.form-control.form-control-lg',
     insertSubTitle: ':nth-child(2) > .form-control',
     insertArticle: ':nth-child(3) > textarea',
-    publishArticleButton: 'button.btn.btn-lg.pull-xs-right.btn-primary[type="button"]',
+    publishArticleButton: 'btn',
     spanErrorArticle: '.error-messages > li'
 }
