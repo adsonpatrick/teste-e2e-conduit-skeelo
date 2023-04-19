@@ -12,7 +12,8 @@ class NewArticle {
 
     static insertTitleSubject(titleSubject) {
         //cy.findAllByPlaceholderText(`What's this article about?`).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
-        cy.get('fieldset.form-group').contains('input', 'What s this article about?').type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+        cy.contains('label', 'What s this article about?').find('input').type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+
     }
 
     static writeArticle(article) {
