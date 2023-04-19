@@ -28,7 +28,7 @@ Legal, os pre-requisitos estão prontos. ☑️
 
 Antes de começar a rodas os testes acho legal passar um contexto referente a plataforma [Conduit](https://react-redux.realworld.io/#/?_k=zmbp9d) é uma plataforma voltada para testes que tem como finalidade ser um hub de artigos, no qual qualquer um pode se inscrever e publicar algum artigo.
 
-Escrevi alguns cenários de testes abrangendo algumas das principais funcionalidades como *cadastro de usuário, login, logout e escrever novos artigos*. Como foi pedido nas instruções do desafio eu disponibilizei os cenários escrito em Gherkin na pasta **Cenários** na raiz do projeto que você também pode acessar clicando **[AQUI](https://github.com/adsonpatrick/teste-e2e-conduit-skeelo/blob/main/Cenarios/cenarios.md).** Também utilizei o cypress-plugin-steps para adicionar as etapas do cenários *(Gherkin - Dado, Quando e Então)* diretamente no código, para saber mais sobre o plugin pode clicar **[AQUI](https://github.com/filiphric/cypress-plugin-steps).** 
+Escrevi alguns cenários de testes abrangendo algumas das principais funcionalidades como *cadastro de usuário, login, logout, escrever novos artigos e comentar nos artigos*. Como foi pedido nas instruções do desafio eu disponibilizei os cenários escrito em Gherkin na pasta **Cenários** na raiz do projeto que você também pode acessar clicando **[AQUI](https://github.com/adsonpatrick/teste-e2e-conduit-skeelo/blob/main/Cenarios/cenarios.md).** Também utilizei o cypress-plugin-steps para adicionar as etapas do cenários *(Gherkin - Dado, Quando e Então)* diretamente no código, para saber mais sobre o plugin pode clicar **[AQUI](https://github.com/filiphric/cypress-plugin-steps).** 
 
 ___
 
