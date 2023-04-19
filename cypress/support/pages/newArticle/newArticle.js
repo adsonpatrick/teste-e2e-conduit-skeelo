@@ -11,11 +11,13 @@ class NewArticle {
     }
 
     static insertTitleSubject(titleSubject) {
-        cy.findAllByPlaceholderText(`What's this article about?`).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+        //cy.findAllByPlaceholderText(`What's this article about?`).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+        cy.get('fieldset.form-group').contains('input', 'What s this article about?').type(titleSubject, {delay: 0}).should("have.value", titleSubject)
     }
 
     static writeArticle(article) {
-        cy.findAllByPlaceholderText("Write your article (in markdown)").type(article, {delay: 0}).should("have.value", article)
+        //cy.findAllByPlaceholderText("Write your article (in markdown)").type(article, {delay: 0}).should("have.value", article)
+         cy.get('fieldset.form-group').contains('input', 'Write your article (in markdown)').type(article, {delay: 0}).should("have.value", article)
     }
 
     static submitArticle() {
