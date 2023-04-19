@@ -7,12 +7,12 @@ class NewArticle {
 
     static insertTitle(title) {
         //cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0})
-        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input').type(title, {delay: 0})
+        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input').first().type(title, {delay: 0})
     }
 
     static insertTitleSubject(titleSubject) {
         //cy.get(newArticleElements.insertSubTitle).type(titleSubject, {delay: 0})
-        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(2) > input').type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(2) > input').first().type(titleSubject, {delay: 0}).should("have.value", titleSubject)
     }
 
     static writeArticle(article) {
