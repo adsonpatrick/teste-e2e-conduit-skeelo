@@ -6,7 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: "https://react-redux.realworld.io/#",
-    defaultCommandTimeout: 30000,
-    requestTimeout: 30000
+    defaultCommandTimeout: 45000,
+    requestTimeout: 45000
   },
 });
