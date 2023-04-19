@@ -57,6 +57,14 @@
 <br>**E** Clico no botão de criar conta
 <br>**Então** Retorna uma mensagem de erro informando que username já existe
 
+## My Articles (Meus artigos)
+**Cenário:** Espera que consiga inserir um comentário em um artigo
+<br>**Dado** Que eu queira criar uma nova conta
+<br>**Quando** Clico no perfi
+<br>**E** Acesso algum artigo e escrevo um comentário
+<br>**E** Clico no botão de submeter
+<br>**Então** Então o comentário é postado no artigo
+
 
 
 
