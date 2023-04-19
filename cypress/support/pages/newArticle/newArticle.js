@@ -5,15 +5,15 @@ class NewArticle {
     }
 
     static insertTitle(title) {
-        cy.get(newArticleElements.insertArticleTitle).first().type(title, {delay: 0}).should("have.value", title)
+        cy.findAllByPlaceholderText("Article Title").type(title, {delay: 0}).should("have.value", title)  
     }
 
     static insertTitleSubject(titleSubject) {
-        cy.get(newArticleElements.insertSubTitle).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+        cy.findAllByPlaceholderText(`What's this article about?`).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
     }
 
     static writeArticle(article) {
-        cy.get(newArticleElements.insertArticle).type(article, {delay: 0})
+        cy.findAllByPlaceholderText("Write your article (in markdown)").type(article, {delay: 0}).should("have.value", article)
     }
 
     static submitArticle() {
