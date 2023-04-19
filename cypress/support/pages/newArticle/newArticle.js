@@ -7,12 +7,12 @@ class NewArticle {
 
     static insertTitle(title) {
         //cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0})
-        cy.get(':nth-child(1) > input').type(title, {delay: 0})
+        cy.get(':nth-child(1) > .form-control').type(title, {delay: 0})
     }
 
     static insertTitleSubject(titleSubject) {
         //cy.get(newArticleElements.insertSubTitle).type(titleSubject, {delay: 0})
-        cy.get(':nth-child(2) > input').type(titleSubject, {delay: 0})
+        cy.get(':nth-child(2) > .form-control').type(titleSubject, {delay: 0})
     }
 
     static writeArticle(article) {
