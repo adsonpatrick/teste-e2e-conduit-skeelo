@@ -6,8 +6,8 @@ class NewArticle {
     }
 
     static insertTitle(title) {
-        cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0})
-
+        //cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0})
+        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input').type(title, {delay: 0})
     }
 
     static insertTitleSubject(titleSubject) {
