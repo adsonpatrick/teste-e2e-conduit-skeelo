@@ -10,7 +10,7 @@ class NewArticle {
         //cy.get('fieldset.form-group').contains('input', 'Article Title').type(title, {delay: 0}).should("have.value", title)
         //cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0}).should("have.value", title)
         //cy.get('input.form-control.form-control-lg[placeholder="Article Title"]').type(title, {delay: 0}).should("have.value", title)
-        cy.get('input.form-control.form-control-lg').should('have.attr', 'placeholder').and('contain', 'Article Title').type(title, {delay: 0})
+        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input').type(title, {delay: 0})
 
 
     }
@@ -19,7 +19,7 @@ class NewArticle {
         //cy.findAllByPlaceholderText(`What's this article about?`).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
         //cy.contains('What s this article about?').find('input').type(titleSubject, {delay: 0}).should("have.value", titleSubject)
         //cy.get(newArticleElements.insertSubTitle).type(titleSubject, {delay: 0}).should("have.value", titleSubject)
-        cy.get('#form-id input:nth-child(2)').type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(2) > input').type(titleSubject, {delay: 0}).should("have.value", titleSubject)
     }
 
     static writeArticle(article) {
