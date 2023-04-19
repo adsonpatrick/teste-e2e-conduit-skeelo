@@ -8,7 +8,9 @@ class NewArticle {
     static insertTitle(title) {
         //cy.findAllByPlaceholderText("Article Title").type(title, {delay: 0}).should("have.value", title)
         //cy.get('fieldset.form-group').contains('input', 'Article Title').type(title, {delay: 0}).should("have.value", title)
-        cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0}).should("have.value", title)
+        //cy.get(newArticleElements.insertArticleTitle).type(title, {delay: 0}).should("have.value", title)
+        cy.get('input.form-control.form-control-lg[placeholder="Article Title"]').type(title, {delay: 0}).should("have.value", title)
+
     }
 
     static insertTitleSubject(titleSubject) {
