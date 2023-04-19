@@ -29,7 +29,7 @@ describe("CENÁRIO DE SUCESSO - NOVO ARTIGO", () =>{
 })
 
 describe("CENÁRIO DE FALHA - NOVO ARTIGO", () =>{
-    it("Espera que não publique um artigo com campos em branco", () =>{
+    it("Espera que não publique um artigo com o título em branco", () =>{
         const titleSubject = faker.lorem.words()
         const article = faker.lorem.paragraph()
 
@@ -38,6 +38,12 @@ describe("CENÁRIO DE FALHA - NOVO ARTIGO", () =>{
 
         cy.step('QUANDO... clico no botão de nova postagem')
         NewArticle.clickNewPost()
+
+        cy.step('E... preencho o subtitulo')
+        NewArticle.insertTitleSubject(titleSubject)
+
+        cy.step('E... escrevo o artigo')
+        NewArticle.writeArticle(article)
 
         cy.step('E... clico em publicar artigo')
         NewArticle.submitArticle()
