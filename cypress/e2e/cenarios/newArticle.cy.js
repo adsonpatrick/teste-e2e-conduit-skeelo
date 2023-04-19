@@ -39,11 +39,11 @@ describe("CENÁRIO DE FALHA - NOVO ARTIGO", () =>{
         cy.step('QUANDO... clico no botão de nova postagem')
         NewArticle.clickNewPost()
 
-        //cy.step('E... preencho o subtitulo')
-        //NewArticle.insertTitleSubject(titleSubject)
+        cy.step('E... preencho o subtitulo')
+        NewArticle.insertTitleSubject(titleSubject)
 
-        //cy.step('E... escrevo o artigo')
-        //NewArticle.writeArticle(article)
+        cy.step('E... escrevo o artigo')
+        NewArticle.writeArticle(article)
 
         cy.step('E... clico em publicar artigo')
         NewArticle.submitArticle()
