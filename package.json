@@ -4,7 +4,7 @@
   "description": "testes da plataforma Conduit",
   "main": "index.js",
   "scripts": {
-    "build": "next build"
+    "cypress:run": "cypress run"
   },
   "author": "Adson Patrique",
   "license": "MIT",
