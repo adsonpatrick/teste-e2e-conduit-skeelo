@@ -6,11 +6,11 @@ class NewArticle {
     }
 
     static insertTitle(title) {
-        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input').first().type(title, {delay: 0})
+        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input').first().type(title, {force: true})
     }
 
     static insertTitleSubject(titleSubject) {
-        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(2) > input').first().type(titleSubject, {delay: 0}).should("have.value", titleSubject)
+        cy.get('#main > div > div > div > div > div > form > fieldset > fieldset:nth-child(2) > input').first().type(titleSubject, {force: true}).should("have.value", titleSubject)
     }
 
     static writeArticle(article) {
