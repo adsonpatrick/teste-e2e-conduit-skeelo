@@ -3,11 +3,6 @@
 👋 Seja bem-vindo(a)!
 
 ***
-### Vídeo explicando a lógica do código no VSCode -> https://www.loom.com/share/213512fba1054b7daa0346a6eaad8eb9
-
-### Vídeo explicando o projeto no GitHub -> https://www.loom.com/share/8cf68bce8dc84937a03fa2730bb8c4a4
-
-***
 
 # Pré-requisitos 
 
